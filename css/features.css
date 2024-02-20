@@ -1,0 +1,141 @@
+/**  Features  **/
+
+h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+h3 {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.features {
+    padding: 96px 0;
+}
+
+.title {
+    color: #2e2f42;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    margin-bottom: 8px;
+}
+
+.text {
+font-size: 16px;
+letter-spacing: 0.02em;
+line-height: 1.5;
+font-weight: 500;
+}
+
+.features-icon {
+    display: none;
+}
+
+.features-title.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.features-list {
+    /* list-style-type: none;
+    display: flex;
+    gap: 24px; */
+
+    gap: 72px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* .features-list-item:not(:last-child) {
+margin-right: 24px;
+} */
+
+
+/** Tablet styles **/
+@media screen and (min-width: 768px) {
+.title {
+    text-align: start;
+}
+
+.features-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 72px;
+    column-gap: 24px;
+}
+
+.features-list-item {
+width: calc((100% - 24px) / 2);
+}
+}
+
+/** Desktop styles **/
+@media screen and (min-width: 1158px) {
+    .features {
+    padding: 120px 0;
+    }
+
+    .features-list {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 24px;
+    }
+
+    .features-list-item {
+        width: calc((100% - 72px) / 4);
+    }
+
+    .title {
+    color: #2e2f42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    }
+    
+    .text {
+    font-weight: 400;
+    }
+
+    .features-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 264px;
+    height: 112px;
+    background-color: var(--second-background-color);
+    border-radius: 4px;
+    margin-bottom: 8px;
+    border: 1px solid #8e8f99;
+    }
+}
