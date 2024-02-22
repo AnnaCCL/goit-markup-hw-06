@@ -1,7 +1,7 @@
 /**  Portfolio  **/
 
 .portfolio {
-    padding: 120px 0;
+    padding: 96px 0;
 }
 
 .portfolio-title {
@@ -114,6 +114,10 @@ margin-right: 0;
 .portfolio-img {
 position: relative;
 overflow: hidden;
+}
+
+.portfolio {
+    padding: 120px 0;
 }
 
 

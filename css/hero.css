@@ -3,7 +3,7 @@
 .hero {
     background-color: var(--title-text-color);
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-    rgba(46, 47, 66, 0.7)), url(../images/hero-mobile.jpg);
+    rgba(46, 47, 66, 0.7)), url(../images/mobile-hero.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -19,7 +19,7 @@ screen and (min-resolution: 2dpx) {
     .hero {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)),
-        url(../images/hero-mobile@x2.jpg);
+        url(../images/mobile-hero@x2.jpg);
     }
 }
 
@@ -71,6 +71,7 @@ screen and (min-resolution: 2dpx) {
         rgba(46, 47, 66, 0.7)),
     url(../images/tablet-hero.jpg);
     }
+
 
     @media screen and (min-device-pixel-ratio: 2),
     screen and (min-resolution: 192dpi),
