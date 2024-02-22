@@ -152,24 +152,21 @@ margin-bottom: auto;
     .top-page {
     padding-top: 0;
     padding-bottom: 0;
+    display: flex;
+    }
+
+
+    .menu-mobile-backdrop {
+        display: flex;
     }
 
     .logo-w {
-    margin-right: auto;
+    margin-right: 120px;
     }
-
-    /* .menu-mobile {
-    flex-direction: row;
-    display: flex;
-    padding: 0;
-    align-items: center;
-    } */
-
 
     .list-menu {
     flex-direction: row;
     align-items: center;
-    margin-bottom: 0;
     }
 
     .carent {
@@ -202,10 +199,14 @@ margin-bottom: auto;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
+.top-line-ad {
+        margin-left: 121px;
+}
+
     .list-contacts {
     gap: 12px;
-    margin-left: 121px;
     }
+
 
     .list-menu-soc {
     display: none;

@@ -55,7 +55,7 @@ a {
 
 .container {
   /* CAREFUL */
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 
   margin: 0 auto;
   padding-left: 15px;
